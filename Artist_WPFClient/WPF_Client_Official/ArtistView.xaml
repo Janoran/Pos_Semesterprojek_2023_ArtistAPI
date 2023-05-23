@@ -1,0 +1,53 @@
+﻿<Window x:Class="WPF_Client_Official.ArtistView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Client_Official"
+        Icon="Vinyl2.png" 
+        mc:Ignorable="d"
+        d:DataContext="{d:DesignInstance Type=local:ArtistView, IsDesignTimeCreatable=False}"
+        Title="ArtistView" Height="450" Width="800"
+        FontSize="18">
+    <StackPanel>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Content="ID:" Margin="10" Grid.Row="0" Grid.Column="0"/>
+        <TextBox x:Name="txtID" IsEnabled="True" Grid.Row="0" Grid.Column="1" Text="{Binding Artist.Id}" IsReadOnly="True" Margin="5,7,5,3"/>
+        <Label Content="Name:" Margin="10" Grid.Row="1" Grid.Column="0"/>
+        <TextBox x:Name="txtName" IsEnabled="True" Text="{Binding Artist.Name}" Margin="5,7,5,3" Grid.Row="1" Grid.Column="1"/>
+        <Label Content="Genre:" Margin="10" Grid.Row="2" Grid.Column="0"/>
+        <TextBox x:Name="txtGenre" IsEnabled="True" Text="{Binding Artist.Genre}" Margin="5,7,5,3" Grid.Row="2" Grid.Column="1"/>
+        <Button Click="createAlbum_Click" Grid.Row="3" Grid.Column="0">CreateAlbum</Button>
+        <Button Click="createSingle_Click" Grid.Row="3" Grid.Column="1">CreateSingle</Button>
+     
+            <ListView SelectionChanged="album_Changed" MinWidth="400" Grid.Row="4" Grid.Column="0" x:Name="lvAlbums"  Background="#FFF0F0F0" ItemsSource="{Binding Artist.Albums}">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Album" DisplayMemberBinding="{Binding Name}"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+
+            <ListView SelectionChanged="single_Changed" MinWidth="400" Grid.Row="4"  Grid.Column="1" x:Name="lvSingles"  Background="#FFF0F0F0" ItemsSource="{Binding Artist.Singles}">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Single" DisplayMemberBinding="{Binding Name}"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </Grid>
+    </StackPanel>
+</Window>

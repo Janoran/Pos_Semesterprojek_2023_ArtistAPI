@@ -1,0 +1,41 @@
+﻿<Window x:Class="WPF_Client_Official.AlbumView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        d:DataContext="{d:DesignInstance Type=local:AlbumView, IsDesignTimeCreatable=False}"
+        xmlns:local="clr-namespace:WPF_Client_Official"
+        Icon="Vinyl4.png" 
+        mc:Ignorable="d"
+        Title="AlbumView" Height="450" Width="800"
+        FontSize="20">
+        
+    <StackPanel>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Row="0" Grid.Column="0">Albumname:</Label>
+            <TextBox Grid.Row="0" Grid.Column="1" x:Name="txtAlbum" Margin="5,7,5,3" Text="{Binding Album.Name}"></TextBox>
+
+            <Label Grid.Row="1" Grid.Column="0">Albumsong:</Label>
+            <TextBox Grid.Row="1" Grid.Column="1" x:Name="txtSong"  KeyDown="txtSong_KeyDown" Margin="5,7,5,3" Text="{Binding Songtitel}" TextChanged="txtSong_TextChanged"></TextBox>
+            <Button Grid.Row="2" Grid.Column="0" MinWidth="400" Content="Unselect List" Click="Unselect_Click"></Button>
+            <Button Grid.Row="2" Grid.Column="1" MinWidth="400" Content="Add Song" Click="Add_Song"></Button>
+            <ListView Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" SelectionChanged="lvAlbumSongs_SelectionChanged"  ItemsSource="{Binding Album.Songs}" x:Name="lvAlbumSongs">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Song" DisplayMemberBinding="{Binding Title}"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </Grid>
+    </StackPanel>
+</Window>

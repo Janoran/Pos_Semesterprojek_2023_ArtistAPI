@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images\favicon.ico">
+  <title>Artist List</title>
+</head>
+
+<body>
+  <script type="module" src="navbar.js"></script>
+
+  <my-navbar></my-navbar>
+
+
+  <div class="container">
+    <div class="artist-grid" id="artistGrid"></div>
+  </div>
+
+  <div class="modal" id="albumModal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2 id="albumModalTitle"></h2>
+      <ul id="albumSongs"></ul>
+    </div>
+  </div>
+
+  <div class="modal" id="singleModal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2 id="singleModalTitle"></h2>
+      <p id="singleSong"></p>
+    </div>
+  </div>
+  <!--Jquery wird nur für den Navbar toggler benötigt-->
+  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

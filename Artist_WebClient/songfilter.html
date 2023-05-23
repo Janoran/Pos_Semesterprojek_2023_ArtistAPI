@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="songfilter.css">
+  <link rel="icon" href="images\favicon.ico">
+  <title>Song List</title>
+</head>
+
+<body>
+
+    <script type="module" src="navbar.js"></script>
+    <my-navbar></my-navbar>
+  <div class="container">
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Filtere nach Songs">
+    </div>
+    <div class="song-grid" id="songGrid"></div>
+  </div>
+
+  <div class="modal" id="songModal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2 id="songModalTitle"></h2>
+      <p id="songArtist"></p>
+    </div>
+  </div>
+
+  <script src="songfilter.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>

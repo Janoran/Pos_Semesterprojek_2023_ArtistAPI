@@ -40,7 +40,7 @@ mit "const app = express()" wird eine Instanz von express erstellt mit welcher s
 9. Am Ende wirdnoch der Port angegeben auf welchem der Server hört bzw. läuft, als auch für den Falle einer unbehandelten Ausnahme vorgesorgt welche dann als log error in der Console ausgegeben wird.
 ![](DownStatus.png)
 ![](UpStatus.png)
-![](Pos_Projekt/Pasted image 20230521193701.png)
+![](https://github.com/Janoran/Pos_Semesterprojek_2023_ArtistAPI/blob/93c415984b9e243378ec1b43114900f3134ba94c/Pos_Projekt/Pasted%20image%2020230521193617.png)
 ![](Pasted image 20230521201811.png)
 
 ![](Pasted image 20230521202315.png)]

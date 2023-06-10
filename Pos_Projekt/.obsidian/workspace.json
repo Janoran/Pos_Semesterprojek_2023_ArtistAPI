@@ -1,0 +1,183 @@
+{
+  "main": {
+    "id": "f6bd97542cda7f5d",
+    "type": "split",
+    "children": [
+      {
+        "id": "922a59b52c6bbb00",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f491fa5e1589d5bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Favorite Artists API.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "dd79a7c5c9b5b22b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "20f865d84dcebd00",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Favorite Artists API.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1c79d388613e1944",
+    "type": "split",
+    "children": [
+      {
+        "id": "209d72a7a5030b4b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d27684b30a110326",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ae814f13ff23458f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "780fb40de8275bbb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b20b04aa818e71d2",
+    "type": "split",
+    "children": [
+      {
+        "id": "1334e02f2bb32cbc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d38041ce2d8df96f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Favorite Artists API.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "fd324f1e21793562",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Favorite Artists API.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "709fabbf1c9a24b9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "146f5792518cb472",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Favorite Artists API.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "20f865d84dcebd00",
+  "lastOpenFiles": [
+    "Pasted image 20230605213912.png",
+    "Pasted image 20230605213549.png",
+    "Pasted image 20230605213027.png",
+    "Pasted image 20230605212902.png",
+    "Pasted image 20230605212805.png",
+    "Pasted image 20230605212747.png",
+    "Pasted image 20230605212609.png",
+    "Pasted image 20230605212451.png",
+    "Pasted image 20230605211923.png",
+    "Pasted image 20230605211859.png",
+    "Pasted image 20230605211745.png",
+    "Favorite Artists API.md",
+    "Untitled"
+  ]
+}

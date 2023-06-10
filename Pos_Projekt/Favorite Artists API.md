@@ -38,7 +38,7 @@ mit "const app = express()" wird eine Instanz von express erstellt mit welcher s
 7. Im nächsten Abschnitt wird nochmal geprüft ob die Verbindung zu Datenbank funktioniert und setzt die Variable dementsprechend.
 8.  app.get(/health) ist der Endpoint welcher den Datenbank Verbindungsstatus anzeigt.
 9. Am Ende wirdnoch der Port angegeben auf welchem der Server hört bzw. läuft, als auch für den Falle einer unbehandelten Ausnahme vorgesorgt welche dann als log error in der Console ausgegeben wird.
-![][DownStatus.png]]
+![](DownStatus.png)]
 ![[UpStatus.png]]
 ![[Pasted image 20230521193701.png]]
 ![[Pasted image 20230521201811.png]]

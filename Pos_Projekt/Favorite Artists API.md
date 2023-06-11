@@ -43,9 +43,9 @@ mit "const app = express()" wird eine Instanz von express erstellt mit welcher s
 
 ![](UpStatus.png)
 ![](https://github.com/Janoran/Pos_Semesterprojek_2023_ArtistAPI/blob/93c415984b9e243378ec1b43114900f3134ba94c/Pos_Projekt/Pasted%20image%2020230521193617.png)
-![](Pasted image 20230521201811.png)
+![](https://github.com/Janoran/Pos_Semesterprojek_2023_ArtistAPI/blob/c38ff8e916f442c54d9fbf414d4484886f612b0b/Pos_Projekt/Pasted%20image%2020230521201811.png)
 
-![](Pasted image 20230521202315.png)]
+![](https://github.com/Janoran/Pos_Semesterprojek_2023_ArtistAPI/blob/c38ff8e916f442c54d9fbf414d4484886f612b0b/Pos_Projekt/Pasted%20image%2020230521202315.png)]
 #### Endpoints
 1.  Zuerst werden wieder die benötigten module und dependencies heruntergeladen.
 2. In der GET bzw. Getall funktion werden die Daten aller Artists abgerufen und als JSON response zurückgegeben.

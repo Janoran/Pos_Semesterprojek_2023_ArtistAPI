@@ -141,12 +141,12 @@ Meine Navbar wurde in ein Javascript file gepackt und als Lit Component gerender
 Dies ermöglichte es mir den Component "my-navbar" in jeder html Seite zu laden.
 Außerdem hab ich dadurch direkt eine Toggler Funktion von Lit benutzen können anstatt zu JQuery oder weiteren Methoden greifen zu müssen.
 ![](https://github.com/Janoran/Pos_Semesterprojek_2023_ArtistAPI/blob/16bf78eeaf6cd09c9b685a9d7108a0de82bf5483/Pos_Projekt/Pasted%20image%2020230522173524.png)]
-![](https://github.com/Janoran/Pos_Semesterprojek_2023_ArtistAPI/blob/16bf78eeaf6cd09c9b685a9d7108a0de82bf5483/Pos_Projekt/Pasted%20image%2020230522181659.png)]
+![](https://github.com/Janoran/Pos_Semesterprojek_2023_ArtistAPI/blob/ce748a4f4bc0f1dd83b8eb97046e2e0cb2cde748/Pos_Projekt/Pasted%20image%2020230605212451.png)]
 #### Probleme welche mich aufgehalten haben:
-![](https://github.com/Janoran/Pos_Semesterprojek_2023_ArtistAPI/blob/16bf78eeaf6cd09c9b685a9d7108a0de82bf5483/Pos_Projekt/Pasted%20image%2020230522181828.png)]
+![](https://github.com/Janoran/Pos_Semesterprojek_2023_ArtistAPI/blob/16bf78eeaf6cd09c9b685a9d7108a0de82bf5483/Pos_Projekt/Pasted%20image%2020230522181659.png)]
 War ein einfacher Logikfehler auf den ich aber eine Zeit lang nicht gekommen bin.
 Ich musste bei der Single zusätzlich noch in den Song gehen und das hatte dann folgenden Fehler bei der Anzeige gegeben:
-![](Pasted image 20230522181828.png)]
+![](https://github.com/Janoran/Pos_Semesterprojek_2023_ArtistAPI/blob/16bf78eeaf6cd09c9b685a9d7108a0de82bf5483/Pos_Projekt/Pasted%20image%2020230522181828.png)]
 ![](Pasted image 20230522181904.png)]
 
 Ein weiteres Problem stellte die Navbar dar welche ich responsiv haben wollte.

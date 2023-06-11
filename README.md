@@ -19,7 +19,7 @@ Ein Künstler beinhaltet folgende Werte:
 Jeder Song hat außerdem noch einen eigenen Songtitel.
 Artist im Json Format bei Postman:
 
-![](Artist_json.png)
+![](https://github.com/Janoran/Pos_Semesterprojek_2023_ArtistAPI/blob/bf381fe0e2d2fbcd4bd28817da7e58b9afabea31/Pos_Projekt/Artist_json.png)
 
 ## Wie wurde die API geschrieben ?
 
@@ -39,9 +39,9 @@ mit "const app = express()" wird eine Instanz von express erstellt mit welcher s
 8.  app.get(/health) ist der Endpoint welcher den Datenbank Verbindungsstatus anzeigt.
 9. Am Ende wirdnoch der Port angegeben auf welchem der Server hört bzw. läuft, als auch für den Falle einer unbehandelten Ausnahme vorgesorgt welche dann als log error in der Console ausgegeben wird.
 
-![](DownStatus.png)
+![](https://github.com/Janoran/Pos_Semesterprojek_2023_ArtistAPI/blob/bf381fe0e2d2fbcd4bd28817da7e58b9afabea31/Pos_Projekt/DownStatus.png)
 
-![](UpStatus.png)
+![](https://github.com/Janoran/Pos_Semesterprojek_2023_ArtistAPI/blob/bf381fe0e2d2fbcd4bd28817da7e58b9afabea31/Pos_Projekt/UpStatus.png)
 ![](https://github.com/Janoran/Pos_Semesterprojek_2023_ArtistAPI/blob/93c415984b9e243378ec1b43114900f3134ba94c/Pos_Projekt/Pasted%20image%2020230521193617.png)
 ![](https://github.com/Janoran/Pos_Semesterprojek_2023_ArtistAPI/blob/c38ff8e916f442c54d9fbf414d4484886f612b0b/Pos_Projekt/Pasted%20image%2020230521201811.png)
 

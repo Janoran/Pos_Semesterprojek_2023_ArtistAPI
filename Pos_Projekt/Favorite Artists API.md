@@ -1,6 +1,6 @@
-## 1.) Wozu dient die "Favorite Artists API" ?
+# Wozu dient die "Favorite Artists API" ?
 
-### 1.1) Beschreibung
+### Beschreibung
 
 Diese API dient dem einfachen speichern und Veranschaulichung (via Webclient) von Künstlern.
 Man kann sich also eine eigene Liste an Lieblingskünstlern und deren Alben und Songs speichern oder alternativ einfach irgendwelche Alben erfinden und in diese nur gewisse Lieblingssongs eines Künstlers hinzufügen.
@@ -21,7 +21,7 @@ Artist im Json Format bei Postman:
 
 ![](Artist_json.png)
 
-### 1.2) Wie wurde die API geschrieben ?
+### Wie wurde die API geschrieben ?
 
 #### Server
 1. Zuerst werden sich express und mongoose geimportet.

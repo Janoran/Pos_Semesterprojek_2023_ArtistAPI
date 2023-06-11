@@ -1,6 +1,6 @@
 # Wozu dient die "Favorite Artists API" ?
 
-### Beschreibung
+## Beschreibung
 
 Diese API dient dem einfachen speichern und Veranschaulichung (via Webclient) von Künstlern.
 Man kann sich also eine eigene Liste an Lieblingskünstlern und deren Alben und Songs speichern oder alternativ einfach irgendwelche Alben erfinden und in diese nur gewisse Lieblingssongs eines Künstlers hinzufügen.
@@ -21,9 +21,9 @@ Artist im Json Format bei Postman:
 
 ![](Artist_json.png)
 
-### Wie wurde die API geschrieben ?
+## Wie wurde die API geschrieben ?
 
-#### Server
+### Server
 1. Zuerst werden sich express und mongoose geimportet.
 Express ist ein Node.js Framework welches für den Server benötigt wird.
 Mongoose ist eine Data object modeling library für MongoDb und NodeJs welche es mir ermöglichte ein Json Schema für meinen Artist zu erstellen.
@@ -46,7 +46,7 @@ mit "const app = express()" wird eine Instanz von express erstellt mit welcher s
 ![](https://github.com/Janoran/Pos_Semesterprojek_2023_ArtistAPI/blob/c38ff8e916f442c54d9fbf414d4484886f612b0b/Pos_Projekt/Pasted%20image%2020230521201811.png)
 
 ![](https://github.com/Janoran/Pos_Semesterprojek_2023_ArtistAPI/blob/c38ff8e916f442c54d9fbf414d4484886f612b0b/Pos_Projekt/Pasted%20image%2020230521202315.png)
-#### Endpoints
+### Endpoints
 1.  Zuerst werden wieder die benötigten module und dependencies heruntergeladen.
 2. In der GET bzw. Getall funktion werden die Daten aller Artists abgerufen und als JSON response zurückgegeben.
    Sollte bei dem abrufen der Daten ein fehler auftreten wird der Errorcode 500 mit einer error message ausgegeben.
@@ -105,7 +105,7 @@ Der Codeteil:
 Das Fenster zum hinzufügen einer Single ist im Gegenzug sehr simple.
 
 ![](https://github.com/Janoran/Pos_Semesterprojek_2023_ArtistAPI/blob/16bf78eeaf6cd09c9b685a9d7108a0de82bf5483/Pos_Projekt/Pasted%20image%2020230605203321.png)
-##### WPF CRUD im Code
+#### WPF CRUD im Code
 In einer Separaten Klasse "API_Service" wurde ein HTTP Client erstellt und diesem eine BaseAddress zugewiesen.
 Das bedeutet dass der httpclient alle seine CRUD Funktionen auf dieser Addresse anwendet. 
 Wenn bei einer Funktion zusätzlich ein Endpoint als Parameter mitgegeben wurde wendet der Client die API Addresse + diesem Endpoint an.
@@ -165,3 +165,18 @@ Außerdem hab ich anfangs eine Methode gefunden um meine Daten aus der Datenbank
 Dies war mithilfe eines Nuggets ganz einfach Möglich.
 Das ganze musste ich dann jedoch verwerfen, da mir bewusst wurde dass ich auf meine API zugreifen muss und nicht direkt auf meine Datenbank wodurch ich meinen bisherigen Fortschritt auf den Kopf stellen musste.
 ![](https://github.com/Janoran/Pos_Semesterprojek_2023_ArtistAPI/blob/16bf78eeaf6cd09c9b685a9d7108a0de82bf5483/Pos_Projekt/Pasted%20image%2020230605213912.png)
+## Zusammenfassung
+Am Ende lässt sich festhalten, dass ich mit diesem Projekt vieles gelernt habe, darunter vorallem wie man mit WPF umgeht und sich das Leben mit Bindings einfacher macht und wie man eine API schreibt und auf diese zugreift.
+Zusätzlich konnte ich mein Wissen in der Webentwicklung wieder auffrischen und erweitern, z.B mit Lit und Cors wovon ich nicht wusste wie wichtig es ist.
+Mein gewähltes Thema hat mir viel spaß gemacht und war weder zu einfach noch zu kompliziert welches perfekt war um eine Challenge darzustellen und die Frustration nicht zu viel wurde.
+In Zukunft könnte man das Projekt um viele Funktionen wie einen random Button erweitern welche bei Click eine "Song Empfehlung" ausgibt.
+Die WPF Umgebung könnte man noch verschönern und den gesamten Code müsste man noch auf mögliche Fehler testen und diese Abfangen also ein Exception handling einbauen.
+Viele konnte ich finden (wie das löschen mit leerer id) und beheben, jedoch wird es bestimmt noch einige geben welche man fixen müsste.
+
+## Quellen
+Bootstrap:
+https://getbootstrap.com/
+Lit:
+https://lit.dev/
+Für die API hab ich folgendes Video als Hilfe benutzt:
+https://www.youtube.com/watch?v=fgTGADljAeg&t=1532s&pp=ygUSaG93IHRvIG1ha2UgYW4gYXBp

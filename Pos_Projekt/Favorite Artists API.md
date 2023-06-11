@@ -103,6 +103,7 @@ Der Codeteil:
 ![](https://github.com/Janoran/Pos_Semesterprojek_2023_ArtistAPI/blob/16bf78eeaf6cd09c9b685a9d7108a0de82bf5483/Pos_Projekt/Pasted%20image%2020230605201736.png)
 ![](https://github.com/Janoran/Pos_Semesterprojek_2023_ArtistAPI/blob/16bf78eeaf6cd09c9b685a9d7108a0de82bf5483/Pos_Projekt/Pasted%20image%2020230605201718.png)
 Das Fenster zum hinzufügen einer Single ist im Gegenzug sehr simple.
+
 ![](https://github.com/Janoran/Pos_Semesterprojek_2023_ArtistAPI/blob/16bf78eeaf6cd09c9b685a9d7108a0de82bf5483/Pos_Projekt/Pasted%20image%2020230605203321.png)
 ##### WPF CRUD im Code
 In einer Separaten Klasse "API_Service" wurde ein HTTP Client erstellt und diesem eine BaseAddress zugewiesen.

@@ -63,7 +63,8 @@ mit "const app = express()" wird eine Instanz von express erstellt mit welcher s
    Wenn dieser Prozess erfolgreich war wird einfach nur die Json nachricht "Artist gelöscht" ausgegeben.
    Bei einem Fehler wird der Fehlercode "400" mit der Errormessage ausgegeben.
 6. Bei der PUT oder UPDATE Methode wird eine id mitgeben mit welcher man durch die getArtist methode einen zugehörigen Artist sucht und dessen Attribute dann durch neue eines requested Artist ersetzt werden.
-   Der requested Artist, als auch dessen id werden im Desktop Client dabei für die Put Methode mitgegeben und seine id dafür verwendet um die Attribute des alten Artist durch die des neuen mitgegebenen zu ändern. 
+Der requested Artist, als auch dessen id werden im Desktop Client dabei für die Put Methode mitgegeben und seine id dafür verwendet um die Attribute des alten Artist durch die des neuen mitgegebenen zu ändern. 
+   
 ![](https://github.com/Janoran/Pos_Semesterprojek_2023_ArtistAPI/blob/16bf78eeaf6cd09c9b685a9d7108a0de82bf5483/Pos_Projekt/Pasted%20image%2020230522202644.png)
 ![](https://github.com/Janoran/Pos_Semesterprojek_2023_ArtistAPI/blob/16bf78eeaf6cd09c9b685a9d7108a0de82bf5483/Pos_Projekt/Pasted%20image%2020230522203008.png)
 ![](https://github.com/Janoran/Pos_Semesterprojek_2023_ArtistAPI/blob/16bf78eeaf6cd09c9b685a9d7108a0de82bf5483/Pos_Projekt/Pasted%20image%2020230522203528.png)
@@ -96,6 +97,7 @@ Im folgenden Albumview Fenster hat man wieder einige Möglichkeiten:
 * Ein weiteres Feature ist die erstellte Funktion welche es dem Benutzer erlaubt im Albumsong feld enter zu benutzen anstatt nach jedem Song auf "Add Song" zu klicken. 
 ![](https://github.com/Janoran/Pos_Semesterprojek_2023_ArtistAPI/blob/16bf78eeaf6cd09c9b685a9d7108a0de82bf5483/Pos_Projekt/Pasted%20image%2020230605194630.png)
 Der Codeteil:
+
 ![](https://github.com/Janoran/Pos_Semesterprojek_2023_ArtistAPI/blob/16bf78eeaf6cd09c9b685a9d7108a0de82bf5483/Pos_Projekt/Pasted%20image%2020230605200334.png)
 ![](https://github.com/Janoran/Pos_Semesterprojek_2023_ArtistAPI/blob/16bf78eeaf6cd09c9b685a9d7108a0de82bf5483/Pos_Projekt/Pasted%20image%2020230605200423.png)
 ![](https://github.com/Janoran/Pos_Semesterprojek_2023_ArtistAPI/blob/16bf78eeaf6cd09c9b685a9d7108a0de82bf5483/Pos_Projekt/Pasted%20image%2020230605201736.png)
@@ -108,6 +110,7 @@ Das bedeutet dass der httpclient alle seine CRUD Funktionen auf dieser Addresse 
 Wenn bei einer Funktion zusätzlich ein Endpoint als Parameter mitgegeben wurde wendet der Client die API Addresse + diesem Endpoint an.
 ![](https://github.com/Janoran/Pos_Semesterprojek_2023_ArtistAPI/blob/16bf78eeaf6cd09c9b685a9d7108a0de82bf5483/Pos_Projekt/Pasted%20image%2020230605204732.png)
 ![](https://github.com/Janoran/Pos_Semesterprojek_2023_ArtistAPI/blob/16bf78eeaf6cd09c9b685a9d7108a0de82bf5483/Pos_Projekt/Pasted%20image%2020230605204750.png)
+
 Danach wurde dieser HTTP Client und dessen Funktionen im MainWindow benutzt indem ein Service Objekt erstellt wurde.
 Wenn man nun das Programm startet wird sofort eine Artistliste erstellt welche von dem httpClient per Get Anfrage die gesamten Artist einträge bekommt und abspeichert.
 * Create - Ein Artist wird erstellt und einer "lokalen" liste hinzugefügt welche im wpf zum anzeigen im Listview benutzt wird.
@@ -134,6 +137,7 @@ Auf der Songs Seite kann man alle Songs aus Alben und Singles filtern oder einfa
 ![](https://github.com/Janoran/Pos_Semesterprojek_2023_ArtistAPI/blob/16bf78eeaf6cd09c9b685a9d7108a0de82bf5483/Pos_Projekt/Pasted%20image%2020230605212805.png)
 ![](https://github.com/Janoran/Pos_Semesterprojek_2023_ArtistAPI/blob/16bf78eeaf6cd09c9b685a9d7108a0de82bf5483/Pos_Projekt/Pasted%20image%2020230605212902.png)
 Erwähnenswert ist hierbei dass alle Seiten responsiv sind, wodurch sich die Karten untereinander anordnen und die Navbar mit einem Toggler verfügbar wird.
+
 ![](https://github.com/Janoran/Pos_Semesterprojek_2023_ArtistAPI/blob/16bf78eeaf6cd09c9b685a9d7108a0de82bf5483/Pos_Projekt/Pasted%20image%2020230605213027.png)
 #### Installieren von Lit
 Lit diente dem einfachen verpacken meiner Navbar.
@@ -144,6 +148,7 @@ Außerdem hab ich dadurch direkt eine Toggler Funktion von Lit benutzen können 
 ![](https://github.com/Janoran/Pos_Semesterprojek_2023_ArtistAPI/blob/ce748a4f4bc0f1dd83b8eb97046e2e0cb2cde748/Pos_Projekt/Pasted%20image%2020230605212451.png)
 #### Probleme welche mich aufgehalten haben:
 ![](https://github.com/Janoran/Pos_Semesterprojek_2023_ArtistAPI/blob/16bf78eeaf6cd09c9b685a9d7108a0de82bf5483/Pos_Projekt/Pasted%20image%2020230522181659.png)
+
 War ein einfacher Logikfehler auf den ich aber eine Zeit lang nicht gekommen bin.
 Ich musste bei der Single zusätzlich noch in den Song gehen und das hatte dann folgenden Fehler bei der Anzeige gegeben:
 ![](https://github.com/Janoran/Pos_Semesterprojek_2023_ArtistAPI/blob/16bf78eeaf6cd09c9b685a9d7108a0de82bf5483/Pos_Projekt/Pasted%20image%2020230522181828.png)

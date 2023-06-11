@@ -102,6 +102,7 @@ Der Codeteil:
 ![](https://github.com/Janoran/Pos_Semesterprojek_2023_ArtistAPI/blob/16bf78eeaf6cd09c9b685a9d7108a0de82bf5483/Pos_Projekt/Pasted%20image%2020230605200423.png)
 ![](https://github.com/Janoran/Pos_Semesterprojek_2023_ArtistAPI/blob/16bf78eeaf6cd09c9b685a9d7108a0de82bf5483/Pos_Projekt/Pasted%20image%2020230605201736.png)
 ![](https://github.com/Janoran/Pos_Semesterprojek_2023_ArtistAPI/blob/16bf78eeaf6cd09c9b685a9d7108a0de82bf5483/Pos_Projekt/Pasted%20image%2020230605201718.png)
+
 Das Fenster zum hinzufügen einer Single ist im Gegenzug sehr simple.
 
 ![](https://github.com/Janoran/Pos_Semesterprojek_2023_ArtistAPI/blob/16bf78eeaf6cd09c9b685a9d7108a0de82bf5483/Pos_Projekt/Pasted%20image%2020230605203321.png)
@@ -174,9 +175,9 @@ Die WPF Umgebung könnte man noch verschönern und den gesamten Code müsste man
 Viele konnte ich finden (wie das löschen mit leerer id) und beheben, jedoch wird es bestimmt noch einige geben welche man fixen müsste.
 
 ## Quellen
-Bootstrap:
+* Bootstrap:
 https://getbootstrap.com/
-Lit:
+* Lit:
 https://lit.dev/
-Für die API hab ich folgendes Video als Hilfe benutzt:
+* Für die API hab ich folgendes Video als Hilfe benutzt:
 https://www.youtube.com/watch?v=fgTGADljAeg&t=1532s&pp=ygUSaG93IHRvIG1ha2UgYW4gYXBp
